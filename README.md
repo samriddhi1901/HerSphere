@@ -1,16 +1,96 @@
-# React + Vite
+HerSphere 🌸
+AI-Powered Women's Health Companion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+HerSphere is an AI-powered web application designed to empower women with personalized health awareness, wellness tracking, and intelligent guidance throughout different stages of life.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Features
+🔐 Authentication
+Secure user authentication with Clerk
+Sign Up / Login
+Protected dashboard
+🏠 Landing Page
+Modern responsive UI
+Hero section
+Features overview
+AI Assistant preview
+Health awareness sections
+📊 Dashboard
+Personalized welcome banner
+Wellness statistics
+AI recommendations
+Daily health checklist
+Water intake tracker
+Upcoming reminders
+Recent activity
+🤖 AI Health Assistant (In Progress)
+AI-powered health guidance
+Chat interface
+Women's health awareness
+Personalized responses
+🌸 Planned Features
+Cycle Tracker
+Mood Tracker
+Symptom Checker
+Nutrition Planner
+Health Reports
+PDF Report Generation
+AI Recommendations
+🛠 Tech Stack
+Frontend
+React.js
+Vite
+Tailwind CSS
+Clerk Authentication
+React Router
+Framer Motion
+Lucide React Icons
+Backend (Upcoming)
+Flask
+Python
+Database (Upcoming)
+MongoDB
+AI
+Google Gemini API (Planned)
+📂 Project Structure
+src/
+│
+├── assets/
+│
+├── components/
+│   ├── home/
+│   ├── dashboard/
+│   ├── chat/
+│   ├── common/
+│   └── layout/
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── Dashboard.jsx
+│   ├── Chat.jsx
+│   ├── CycleTracker.jsx
+│   ├── MoodTracker.jsx
+│   ├── Nutrition.jsx
+│   ├── Reports.jsx
+│   └── Profile.jsx
+│
+├── services/
+├── utils/
+├── App.jsx
+└── main.jsx
+🚀 Current Progress
+✅ Completed
+Landing Page
+Clerk Authentication
+Responsive UI
+Dashboard UI
+React Router Setup
+Dashboard Components
+🔄 In Progress
+AI Health Assistant
+Backend Integration
+📅 Upcoming
+Cycle Tracking
+Mood Tracking
+Nutrition Planner
+Reports & Analytics
+AI Personalization
