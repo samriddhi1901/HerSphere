@@ -1,66 +1,81 @@
-HerSphere 🌸
-AI-Powered Women's Health Companion
+# 🌸 HerSphere
 
-HerSphere is an AI-powered web application designed to empower women with personalized health awareness, wellness tracking, and intelligent guidance throughout different stages of life.
+### AI-Powered Women's Health Companion
 
-✨ Features
-🔐 Authentication
-Secure user authentication with Clerk
-Sign Up / Login
-Protected dashboard
-🏠 Landing Page
-Modern responsive UI
-Hero section
-Features overview
-AI Assistant preview
-Health awareness sections
-📊 Dashboard
-Personalized welcome banner
-Wellness statistics
-AI recommendations
-Daily health checklist
-Water intake tracker
-Upcoming reminders
-Recent activity
-🤖 AI Health Assistant (In Progress)
-AI-powered health guidance
-Chat interface
-Women's health awareness
-Personalized responses
-🌸 Planned Features
-Cycle Tracker
-Mood Tracker
-Symptom Checker
-Nutrition Planner
-Health Reports
-PDF Report Generation
-AI Recommendations
-🛠 Tech Stack
-Frontend
-React.js
-Vite
-Tailwind CSS
-Clerk Authentication
-React Router
-Framer Motion
-Lucide React Icons
-Backend (Upcoming)
-Flask
-Python
-Database (Upcoming)
-MongoDB
-AI
-Google Gemini API (Planned)
-📂 Project Structure
+HerSphere is an AI-powered women's health platform designed to provide personalized health awareness, wellness tracking, and intelligent guidance for every stage of a woman's life.
+
+---
+
+## ✨ Features
+
+### 🔐 Authentication
+- Secure Sign Up & Login using Clerk
+- Protected Dashboard
+- User Profile Management
+
+### 🏠 Landing Page
+- Modern Responsive UI
+- Hero Section
+- Feature Highlights
+- AI Assistant Preview
+- Women's Health Awareness
+
+### 📊 Dashboard
+- Personalized Welcome Banner
+- Wellness Statistics
+- AI Health Recommendation
+- Daily Health Checklist
+- Water Intake Tracker
+- Upcoming Reminder
+- Recent Activity Feed
+
+### 🤖 AI Assistant *(In Progress)*
+- AI-powered Health Chat
+- Personalized Guidance
+- Women's Health Education
+
+### 🚀 Upcoming Features
+- 🌸 Cycle Tracker
+- 😊 Mood Tracker
+- 🥗 Nutrition Planner
+- 📈 Health Reports
+- 📄 PDF Report Generation
+- 🤖 Gemini AI Integration
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- Clerk Authentication
+- React Router DOM
+- Framer Motion
+- Lucide React
+
+### Backend *(Upcoming)*
+- Flask (Python)
+
+### Database *(Upcoming)*
+- MongoDB
+
+### AI
+- Google Gemini API *(Planned)*
+
+---
+
+## 📂 Project Structure
+
+```text
 src/
 │
 ├── assets/
-│
 ├── components/
-│   ├── home/
 │   ├── dashboard/
 │   ├── chat/
-│   ├── common/
+│   ├── home/
 │   └── layout/
 │
 ├── pages/
@@ -74,23 +89,103 @@ src/
 │   └── Profile.jsx
 │
 ├── services/
-├── utils/
 ├── App.jsx
-└── main.jsx
-🚀 Current Progress
-✅ Completed
-Landing Page
-Clerk Authentication
-Responsive UI
-Dashboard UI
-React Router Setup
-Dashboard Components
-🔄 In Progress
-AI Health Assistant
-Backend Integration
-📅 Upcoming
-Cycle Tracking
-Mood Tracking
-Nutrition Planner
-Reports & Analytics
-AI Personalization
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 📌 Project Status
+
+### ✅ Completed
+- Landing Page
+- Clerk Authentication
+- Responsive Design
+- Dashboard UI
+- React Router Setup
+- Dashboard Components
+
+### 🚧 In Progress
+- AI Chat Assistant
+- Backend Integration
+
+### 📅 Planned
+- Cycle Tracking
+- Mood Tracking
+- Nutrition Planner
+- Reports & Analytics
+- Gemini AI Integration
+
+---
+
+## 🗺️ Roadmap
+
+- [x] Landing Page
+- [x] Authentication
+- [x] Dashboard UI
+- [ ] AI Chat Assistant
+- [ ] Cycle Tracker
+- [ ] Mood Tracker
+- [ ] Nutrition Planner
+- [ ] Symptom Checker
+- [ ] Reports
+- [ ] Flask Backend
+- [ ] MongoDB
+- [ ] Gemini AI
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/HerSphere.git
+```
+
+### Navigate to the project
+
+```bash
+cd HerSphere
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Screenshots
+
+### Landing Page
+
+*(Add screenshot here)*
+
+### Dashboard
+
+*(Add screenshot here)*
+
+---
+
+## 👩‍💻 Author
+
+**Samriddhi Shrivastava**
+
+Integrated M.Tech (Data Science)
+
+VIT Bhopal University
+
+---
+
+## 📜 License
+
+This project is developed for educational and portfolio purposes.
