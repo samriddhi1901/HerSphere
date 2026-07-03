@@ -1,35 +1,63 @@
-import Sidebar from "../components/dashboard/Sidebar";
-import Topbar from "../components/dashboard/Topbar";
+import { useState } from "react";
+import AuthenticatedLayout from "../components/layout/AuthenticatedLayout";
 
 import ChatHeader from "../components/chat/ChatHeader";
 import SuggestedQuestions from "../components/chat/SuggestedQuestions";
 import ChatWindow from "../components/chat/ChatWindow";
 import ChatInput from "../components/chat/ChatInput";
 
+import { sendMessage } from "../services/api";
+
 export default function Chat() {
+  const [messages, setMessages] = useState([
+    {
+      sender: "assistant",
+      message:
+        "Hello! 🌸 I'm your AI Women's Health Assistant. Ask me anything related to women's health.",
+    },
+  ]);
+
+  const [loading, setLoading] = useState(false);
+
+  async function handleSend(text) {
+    if (!text.trim()) return;
+
+    const userMessage = {
+      sender: "user",
+      message: text,
+    };
+
+    setMessages((prev) => [...prev, userMessage]);
+    setLoading(true);
+
+    const reply = await sendMessage(text);
+
+    setMessages((prev) => [
+      ...prev,
+      {
+        sender: "assistant",
+        message: reply,
+      },
+    ]);
+
+    setLoading(false);
+  }
+
   return (
-    <div className="min-h-screen bg-pink-50 flex">
+    <AuthenticatedLayout>
+      <ChatHeader />
 
-      <Sidebar />
+      <SuggestedQuestions onSelect={handleSend} />
 
-      <main className="flex-1 p-8">
+      <ChatWindow
+        messages={messages}
+        loading={loading}
+      />
 
-        <Topbar />
-
-        <div className="mt-8">
-
-          <ChatHeader />
-
-          <SuggestedQuestions />
-
-          <ChatWindow />
-
-          <ChatInput />
-
-        </div>
-
-      </main>
-
-    </div>
+      <ChatInput
+        onSend={handleSend}
+        loading={loading}
+      />
+    </AuthenticatedLayout>
   );
 }

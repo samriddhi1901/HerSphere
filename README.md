@@ -1,16 +1,191 @@
-# React + Vite
+# 🌸 HerSphere
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### AI-Powered Women's Health Companion
 
-Currently, two official plugins are available:
+HerSphere is an AI-powered women's health platform designed to provide personalized health awareness, wellness tracking, and intelligent guidance for every stage of a woman's life.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔐 Authentication
+- Secure Sign Up & Login using Clerk
+- Protected Dashboard
+- User Profile Management
 
-## Expanding the ESLint configuration
+### 🏠 Landing Page
+- Modern Responsive UI
+- Hero Section
+- Feature Highlights
+- AI Assistant Preview
+- Women's Health Awareness
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📊 Dashboard
+- Personalized Welcome Banner
+- Wellness Statistics
+- AI Health Recommendation
+- Daily Health Checklist
+- Water Intake Tracker
+- Upcoming Reminder
+- Recent Activity Feed
+
+### 🤖 AI Assistant *(In Progress)*
+- AI-powered Health Chat
+- Personalized Guidance
+- Women's Health Education
+
+### 🚀 Upcoming Features
+- 🌸 Cycle Tracker
+- 😊 Mood Tracker
+- 🥗 Nutrition Planner
+- 📈 Health Reports
+- 📄 PDF Report Generation
+- 🤖 Gemini AI Integration
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- Clerk Authentication
+- React Router DOM
+- Framer Motion
+- Lucide React
+
+### Backend *(Upcoming)*
+- Flask (Python)
+
+### Database *(Upcoming)*
+- MongoDB
+
+### AI
+- Google Gemini API *(Planned)*
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── assets/
+├── components/
+│   ├── dashboard/
+│   ├── chat/
+│   ├── home/
+│   └── layout/
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── Dashboard.jsx
+│   ├── Chat.jsx
+│   ├── CycleTracker.jsx
+│   ├── MoodTracker.jsx
+│   ├── Nutrition.jsx
+│   ├── Reports.jsx
+│   └── Profile.jsx
+│
+├── services/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 📌 Project Status
+
+### ✅ Completed
+- Landing Page
+- Clerk Authentication
+- Responsive Design
+- Dashboard UI
+- React Router Setup
+- Dashboard Components
+
+### 🚧 In Progress
+- AI Chat Assistant
+- Backend Integration
+
+### 📅 Planned
+- Cycle Tracking
+- Mood Tracking
+- Nutrition Planner
+- Reports & Analytics
+- Gemini AI Integration
+
+---
+
+## 🗺️ Roadmap
+
+- [x] Landing Page
+- [x] Authentication
+- [x] Dashboard UI
+- [ ] AI Chat Assistant
+- [ ] Cycle Tracker
+- [ ] Mood Tracker
+- [ ] Nutrition Planner
+- [ ] Symptom Checker
+- [ ] Reports
+- [ ] Flask Backend
+- [ ] MongoDB
+- [ ] Gemini AI
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/HerSphere.git
+```
+
+### Navigate to the project
+
+```bash
+cd HerSphere
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Screenshots
+
+### Landing Page
+
+*(Add screenshot here)*
+
+### Dashboard
+
+*(Add screenshot here)*
+
+---
+
+## 👩‍💻 Author
+
+**Samriddhi Shrivastava**
+
+Integrated M.Tech (Data Science)
+
+VIT Bhopal University
+
+---
+
+## 📜 License
+
+This project is developed for educational and portfolio purposes.

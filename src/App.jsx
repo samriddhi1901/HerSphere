@@ -10,6 +10,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/chat" element={<Chat />} />
+        <Route path="/cycle" element={<CycleTracker />} />
       </Routes>
     </BrowserRouter>
   );
